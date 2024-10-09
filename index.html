@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<style>
+    .demo1{
+        color:green;
+    }
+    #demo>div 1,2{
+        color:blue;
+    }
+    #sibling~div{
+        color: red;
+    }
+ 
+
+</style>
+<!-- // id Selectors
+// class Selectors
+// tag Selectors
+// child Selectors  - nth-child 
+-->
+make hello green using id Selectors
+make 'a' and 'b' in blue color using child Selectors
+make Sibling in red color using sibling Selectors
+<body>
+      <div class="demo1" id="demo"> hello </div>
+      <div id="sibling">
+            <div id="demo"> 
+                <div>a</div>
+                <div>b</div>
+                <div>c</div>
+                <div>e</div>
+            </div>
+      </div>
+      <div>
+         Sibling
+      </div>
+</body>
+</html>
+
+<!-- 1.Selectors
+2.Tags/Element/semantic tags
+3.Position
+    absolute
+    fix
+    related
+    static
+4.Display
+    none
+    block
+    inline
+    flex
+        flex-wrap/nowrap
+    grid -->
+

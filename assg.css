@@ -1,0 +1,48 @@
+#main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#searchbox{
+    border-radius: 25%;
+   
+
+}
+#first{
+    display: flex;
+}
+#second{
+    display: flex;
+}
+
+#set{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(39, 39, 174);
+}
+
+#user{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(40, 40, 160);
+}
+#name{
+    font-size: 30px;
+    align-items: center;
+}
+#btn{
+    border-radius: 50px;
+}
