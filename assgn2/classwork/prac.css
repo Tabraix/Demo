@@ -1,0 +1,70 @@
+#main{
+    display: grid;
+    grid-template-areas: 
+    "first first first first "
+    "second second third fourth"
+    "second second fifth sixth"
+    "second second seventh seventh";
+}
+div{
+    border: solid black 0.5px;
+    grid-area: "first";
+}
+#one{
+    grid-area: first;
+    background-color: rgb(73, 27, 238);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+}
+#two{ grid-area: second;
+    background-color: rgb(93, 30, 151);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+
+}
+#three{
+    grid-area: third;
+    background-color: rgb(62, 50, 73);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+
+}
+#four{
+    grid-area: fourth;
+    background-color:rgb(62, 50, 73);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+
+}
+#five{
+    grid-area: fifth;
+    background-color: rgb(62, 50, 73);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+}
+#six{
+    grid-area: sixth;
+    background-color: rgb(62, 50, 73);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+}
+#seven{
+    grid-area: seventh;
+    background-color: rgb(51, 16, 146);
+    text-align: center;
+    color: white;
+    margin: 0.5px;
+    border-radius: 5px;
+}

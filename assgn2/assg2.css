@@ -1,0 +1,41 @@
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+#first{
+    display: flex;
+    column-gap: 10px;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px;
+}
+   
+  #tablehead {
+    background-color: rgb(228 240 245);
+  }
+
+#tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid black; 
+}
+
+#btn{
+    color: white;
+    background-color: blue;
+}
+  
