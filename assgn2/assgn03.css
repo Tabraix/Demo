@@ -1,0 +1,124 @@
+#first{
+    border-bottom: solid  black 0.1px;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#second{
+    border-bottom: solid black 0.1px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(200, 231, 244);
+}
+
+#check{
+    height: 30px;
+    width: 400px;
+    border-radius: 25px;
+    
+}
+#body{
+    margin-top: 10px;
+    grid-column-gap:10px;
+    grid-row-gap:5px;
+    display: grid;
+    grid-template-areas: 
+    "box1  box2 box2"
+    "box3  box2 box2";
+}
+#box1{
+    grid-area: box1;
+    background-color: rgb(104, 242, 247);
+    margin: 0.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#box2{
+    grid-area:box2;
+    background-color:rgb(252, 175, 187);
+    margin: 0.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#box3{
+    grid-area: box3;
+    background-color:rgb(194, 137, 247);
+    margin: 0.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#img2{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+#img1{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+#img3{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+h{
+    font-family: fantasy;
+    font-size: 25px;
+}
+P{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 108, 108);   
+}
+#content{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#btn1{
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgba(17, 67, 246, 0.782);
+    border-radius: 10px;
+    border:solid rgba(17, 67, 246, 0.782) 0.1px ;
+    color: white;
+}
+#btn2{
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgba(225, 14, 70, 0.782);
+    border-radius: 10px;
+    border:solid rgba(205, 18, 68, 0.782) 0.1px ;
+    color: white;
+}
+#btn3{
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgba(224, 57, 246, 0.782);
+    border-radius: 10px;
+    border:solid  rgba(224, 57, 246, 0.782) 0.1px ;
+    color: white;
+}
+#logo{
+    font-size: 30px;
+}
+#logo{
+    margin-right: 80px;
+}
