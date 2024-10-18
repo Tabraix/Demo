@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<style>
+#g-block{
+     display: flex;
+   
+}
+ #g-block>div{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+ }
+ 
+  
+ 
+ 
+</style>
+<!-- // id Selectors
+// class Selectors
+// tag Selectors
+// > child Selectors  //:nth-child()
+// ~ sibling
+//
+--> 
+<!-- make hello green using id Selectors
+make 'a' and 'b' in blue color using child Selectors
+make Sibling in red color using sibling Selectors -->
+<body id="oterbox">
+   
+   <div id="g-block">
+            <div id="count" >1</div>
+   </div>
+   <section id="g-block">
+            <div  >1</div>
+            <div  >2</div>
+            <div  >3</div>
+            <div  >4</div>
+   </section>
+    <div  class="data">
+        <div  >2</div>
+        <div  >2</div>
+        <div  >3</div>
+        <div  >4</div>
+    </div>
+    <section class="data">
+        <div>1</div>
+        <div  >2</div>
+        <div  >3</div>
+        <div  >4</div>
+    </section>
+    <button id="clickbutton" type="button">Click</button>
+</body>
+</html>
+<script>
+   let val=1
+   const box=document.getElementById("clickbutton");
+   box.addEventListener("click", function(){
+       val=val+1;
+       box2.innerText=val
+   })
+
+</script>
+<!-- make a counter application -->
+<!-- 1.Selectors
+2.Tags/Element/semantic tags
+3.Position
+    absolute
+    fix
+    related
+    static
+4.Display
+    none
+    block
+    inline
+    flex
+        flex-wrap/nowrap
+    grid -->
+
